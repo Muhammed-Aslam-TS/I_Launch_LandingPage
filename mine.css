@@ -1,0 +1,29 @@
+.card {
+    border-radius: .7rem;
+  }
+
+  section {
+    padding: 20px 0;
+}
+
+/* Align the shopping cart icon and login text in a row with some space between */
+.navbar-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style the shopping cart icon */
+.material-symbols-outlined {
+    font-size: 24px;
+    margin-right: 10px; /* Add a little space between the icon and the text */
+}
+
+/* Add some padding to the login text for better spacing */
+.login-text {
+    padding-right: 15px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+}
